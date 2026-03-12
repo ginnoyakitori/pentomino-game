@@ -25,10 +25,10 @@ npm start
 1. GitHub に push
 2. Render ダッシュボードで **New + → Blueprint**
 3. このリポジトリを選択して作成
-4. `party-game` の Static Web Service が作成される
-5. `https://party-game.onrender.com` へアクセス
+4. `kokumei-shiritori-party-game` の Static Web Service が作成される
+5. `https://kokumei-shiritori-party-game.onrender.com` へアクセス
 
-> `party-game` が既に使用済みの場合は、Render 側で別名になります（例: `party-game-1`）。
+> `kokumei-shiritori-party-game` が既に使用済みの場合は、Render 側で別名になります（例: `kokumei-shiritori-party-game-1`）。
 
 ## 失敗ログ対応（今回の `npm install ENOENT`）
 ログの原因は `package.json` が見つからないことでした。現在は `package.json` と `server.js` を追加済みなので、
